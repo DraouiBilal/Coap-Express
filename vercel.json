@@ -1,15 +1,5 @@
 {
   "buildCommand": "npm run build",
   "installCommand":"npm install",
-  "outputDirectory":"dist/express/client/public/",
-  "builds": [
-    {
-      "src": "dist/express/server.js",
-      "use": "@now/node"
-    },
-    {
-      "src": "dist/coap/server.js",
-      "use": "@now/node"
-    }
-  ]
+  "outputDirectory":"dist/express/client/public/"
 }
