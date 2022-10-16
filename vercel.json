@@ -6,7 +6,7 @@
     },
     {
       "src": "dist/coap/server.js",
-      "use": "@now/nod"
+      "use": "@now/node"
     }
   ],
   "routes": [
