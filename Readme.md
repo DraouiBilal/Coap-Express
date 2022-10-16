@@ -4,7 +4,7 @@ This simple website was created in the **Full Stack Software Engineering for IoT
 Its purpose is to show you how you can use web services to interact with a Iot devices.
 
 ## How to use
-you have 3 approaches to use this project:
+you have 3 ways to run this project:
 
 1. Use the website hosted on Versel: [https://coap-express.vercel.app/](https://coap-express.vercel.app/)
 
