@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "installCommand":"npm install",
-  "outputDirectory":"/dist/client/public",
+  "outputDirectory":"dist/express/client/public/",
   "builds": [
     {
       "src": "dist/express/server.js",
