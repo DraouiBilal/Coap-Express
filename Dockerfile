@@ -10,7 +10,7 @@ COPY . .
 
 RUN npm run build
 
-ARG PORT=5000
+ARG PORT=80
 
 ENV PORT=$PORT
 

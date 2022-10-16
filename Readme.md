@@ -19,8 +19,6 @@ npm run start
 ```
 You will need to specify the port you want to use in the .env file.
 
-And you will also need to change the url variable in then src/express/client/public/index.ts to [http://localhost:YOUR_PORT/](http://localhost:YOUR_PORT/)
-
 Then go to [http://localhost:YOUR_PORT/](http://localhost:YOUR_PORT/)
 
 3. Use docker to run the project:
@@ -30,3 +28,6 @@ git clone https://github.com/DraouiBilal/Coap-Express.git
 cd Coap-Express
 docker build --build-arg PORT=YOUR_PORT -t coap .
 docker run -it -p 5000:5000 --name=coap coap:latest
+```
+
+Then go to [http://localhost:YOUR_PORT/](http://localhost:YOUR_PORT/)
