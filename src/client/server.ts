@@ -68,6 +68,6 @@ app.get('/server/average',async (request, response) => {
     response.json({ payload: { average } })
 })
 
-app.listen(5000, () => {
-    console.log('Express server started on port 5000')
+app.listen(80, () => {
+    console.log('Express server started on port 80')
 })
