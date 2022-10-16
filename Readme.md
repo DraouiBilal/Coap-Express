@@ -6,7 +6,7 @@ Its purpose is to show you how you can use web services to interact with a Iot d
 ## How to use
 you have 3 ways to run this project:
 
-1. Use the website hosted on Versel: [https://coap-express.vercel.app/](https://coap-express.vercel.app/)
+1. Use the website hosted on Railway: [https://coap-express-production.up.railway.app/](https://coap-express-production.up.railway.app/)
 
 2. Clone the project locally, install the dependencies and then run it:
 
