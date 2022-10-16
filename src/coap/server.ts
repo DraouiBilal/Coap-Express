@@ -1,6 +1,4 @@
 import * as coap from 'coap'
-import { Payload, PayloadType } from './interfaces/payload'
-
 
 const server1 = coap.createServer()
 const server2 = coap.createServer()

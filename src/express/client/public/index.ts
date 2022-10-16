@@ -21,7 +21,6 @@ button2!.addEventListener('click', async () => {
 
 buttonavg!.addEventListener('click', async () => {
     const res = await fetch(`http://localhost:5000/server/average`);
-    
     const json = await res.json();
     const temp = json.payload.average;
     ress!.innerHTML = `${temp}°C which is the average`
