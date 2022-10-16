@@ -1,12 +1,10 @@
 {
   "builds": [
     {
-      "src": "dist/express/server.js",
-      "use": "@now/node"
+      "src": "dist/express/server.js"
     },
     {
-      "src": "dist/coap/server.js",
-      "use": "@now/node"
+      "src": "dist/coap/server.js"
     }
   ],
   "routes": [
