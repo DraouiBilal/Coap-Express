@@ -11,11 +11,5 @@
       "src": "dist/coap/server.js",
       "use": "@now/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "dist/express/server.js"
-    }
   ]
 }
