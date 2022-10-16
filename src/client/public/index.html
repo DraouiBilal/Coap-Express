@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Temperature</title>
+</head>
+<body class="bg-sky-300 text-white">
+
+    <h1 class="text-center text-2xl my-5">Get the temperature of your IoT devices</h1>
+    <div class="flex justify-around">
+        <button id="s1" class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
+            From server 1
+        </button>
+        <button id="s2" class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
+            From server 2
+        </button>
+        <button id="avg" class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
+            Average
+        </button>
+    </div>
+    <div class="my-5 w-full flex justify-center">
+        <span class="text-xl text-center">
+            Temerature is: 
+            <span id="res">0</span>
+        </span>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
